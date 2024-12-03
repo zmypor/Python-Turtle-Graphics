@@ -1,5 +1,5 @@
 # Python-Graphics
-In this topic we will show a range of important national flags drawn using Python Turtle.
+In this topic we will show a range of important national flags drawn using Python Turtlew with typical animation screenshots/images as follows.
 
 German National Flag
 ![1](https://github.com/user-attachments/assets/10d8840e-fd60-43bc-93a5-6362e7ddef81)
