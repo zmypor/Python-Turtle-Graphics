@@ -3,9 +3,9 @@ import turtle
 
 def draw_dutch_flag():
     """
- Function to draw the German flag using the turtle graphics library.
+ Function to draw the Dutch flag using the turtle graphics library.
 
- The German flag consists of three horizontal stripes of equal width: black, red, and yellow.
+ The Dutch flag consists of three horizontal stripes of equal width: blue, white, and red.
  The flag is drawn with a ratio of 3:5, where the height is 3 units and the width is 5 units.
 
  Returns:
@@ -16,15 +16,11 @@ def draw_dutch_flag():
     # Setting up the turtle screen and turtle object
     screen = turtle.Screen()
     screen.setup(width=1000, height=600)  # Setting the screen size to match the flag ratio
-    screen.title("German National Flag")
     screen.bgcolor("white")
 
     flag_turtle = turtle.Turtle()
     flag_turtle.speed(2)  # Setting the turtle speed to slow
 
-    # Calculating the dimensions for the flag
-    flag_width = 1000
-    flag_height = 600
 
     flag_turtle.up()
     flag_turtle.goto(-100, -100)
